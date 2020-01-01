@@ -1,0 +1,18 @@
+{
+	"name": "Chow_Chun_Chung",
+	"description": "COMPS381F",
+	"author": "12154053_Chow Chun Chung",
+	"version": "1.0.0",
+	"dependencies": {
+		"mongoose": "^5.7.4",
+		"body-parser": "^1.18.3",
+		"formidable": "latest",
+		"express": "*",
+		"ejs": "*",
+		"exif": "^0.6.0"
+	},
+	"scripts": {
+		"start": "node server"
+	},
+	"engine": "node >= 0.10.0"
+}

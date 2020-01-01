@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <div align="center">
+	<h1 align="center"><%= title %></h1>
+	<h2 align="center"><%= description %></h2>
+	<table style="width:60%" border="2">
+		<tr><td><img src="<%= image %>" width="100%" </td></tr>
+		<tr><td>Make: <%= make %></td></tr>
+		<tr><td>Model: <%= model %></td></tr>
+		<tr><td>Created on: <%= createDate %></tr></td>
+		<tr><td>Location: <a href='/map?lat=<%=lat%>&lon=<%=lon%>&zoom=15'>MAP</a></tr></td>
+	</table>
+	<input type="button" value="HOME" onclick="location.href='/'">
+
+</body>
+</html>
