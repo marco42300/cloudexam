@@ -5,7 +5,7 @@
 	"version": "1.0.0",
 	"dependencies": {
 		"mongoose": "^5.7.4",
-		"body-parser": "^1.18.3",
+		"body-parser": "^1.20.1",
 		"formidable": "latest",
 		"express": "*",
 		"ejs": "*",
