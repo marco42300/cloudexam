@@ -4,7 +4,7 @@
 	"author": "12154053_Chow Chun Chung",
 	"version": "1.0.0",
 	"dependencies": {
-		"mongoose": "^5.7.4",
+		"mongoose": "^5.13.15",
 		"body-parser": "^1.18.3",
 		"formidable": "latest",
 		"express": "*",
